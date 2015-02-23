@@ -20,7 +20,7 @@ def print_list(list_):
 
 def main():
     parser = argparse.ArgumentParser(description=DESCRIPTION)
-    (args, list_) = parser.parse_known_args()
+    (_, list_) = parser.parse_known_args()
     r = random.SystemRandom()
     if not list_:
         list_ = get_list()
