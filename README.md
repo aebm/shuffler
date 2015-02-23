@@ -15,7 +15,7 @@ Be advised that it does not remove duplicated input
   Bob
   ```
 
-* Get the 5 cool persons
+* Get 5 cool persons
 
   ```bash
   ./shuffler.py < participants.txt | head -n 5
